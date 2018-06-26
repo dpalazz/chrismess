@@ -1,0 +1,50 @@
+body {
+  background-attachment: fixed;
+  background-image: url('./chris.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  border: none;
+  border-radius: 3px;
+  height: 1.5rem;
+  margin: 10px 0;
+  max-width: 300px;
+}
+
+form input[type="submit"] {
+  background-color: bisque;
+  color: brown;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1rem;
+}
+
+h2 {
+  margin: 0 auto;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+header {
+  background: bisque;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+main {
+
+  color: white;
+  text-shadow: 2px 2px black;
+  font-family: 'Merriweather Sans', sans-serif;
+  height: 100vh;
+}
